@@ -1,0 +1,11 @@
+kind: Application
+apiVersion: argoproj.io/v1alpha1
+
+metadata:
+   name: chat-app
+   namespace: argocd
+spec:
+   project: default
+
+   source:
+      repoURL:
